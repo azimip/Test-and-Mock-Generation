@@ -1,0 +1,695 @@
+<org.carlspring.commons.io.MultipleDigestOutputStream>
+  <out class="java.io.FileOutputStream">
+    <fd>
+      <fd>-1</fd>
+      <handle>-1</handle>
+      <parent class="java.io.FileOutputStream" reference="../.."/>
+      <closed>true</closed>
+      <append>false</append>
+    </fd>
+    <path>f1.txt</path>
+    <closeLock/>
+    <closed>true</closed>
+  </out>
+  <closed>true</closed>
+  <closeLock/>
+  <digests class="linked-hash-map">
+    <entry>
+      <string>MD5</string>
+      <java.security.MessageDigest_-Delegate>
+        <algorithm>MD5</algorithm>
+        <state>1</state>
+        <provider class="sun.security.provider.Sun" serialization="custom">
+          <unserializable-parents/>
+          <hashtable>
+            <default>
+              <loadFactor>0.75</loadFactor>
+              <threshold>152</threshold>
+            </default>
+            <int>203</int>
+            <int>146</int>
+            <string>SecureRandom.NativePRNGBlocking</string>
+            <string>sun.security.provider.NativePRNG$Blocking</string>
+            <string>KeyPairGenerator.DSA</string>
+            <string>sun.security.provider.DSAKeyPairGenerator$Current</string>
+            <string>Alg.Alias.MessageDigest.OID.2.16.840.1.101.3.4.2.10</string>
+            <string>SHA3-512</string>
+            <string>Signature.SHA256withDSA SupportedKeyClasses</string>
+            <string>java.security.interfaces.DSAPublicKey|java.security.interfaces.DSAPrivateKey</string>
+            <string>Alg.Alias.KeyFactory.OID.1.2.840.10040.4.1</string>
+            <string>DSA</string>
+            <string>CertStore.Collection ImplementedIn</string>
+            <string>Software</string>
+            <string>Signature.SHA224withDSAinP1363Format</string>
+            <string>sun.security.provider.DSA$SHA224withDSAinP1363Format</string>
+            <string>Signature.SHA256withDSA</string>
+            <string>sun.security.provider.DSA$SHA256withDSA</string>
+            <string>Alg.Alias.MessageDigest.OID.1.3.14.3.2.26</string>
+            <string>SHA</string>
+            <string>Signature.NONEwithDSAinP1363Format</string>
+            <string>sun.security.provider.DSA$RawDSAinP1363Format</string>
+            <string>MessageDigest.SHA-512/256</string>
+            <string>sun.security.provider.SHA5$SHA512_256</string>
+            <string>Alg.Alias.AlgorithmParameters.1.2.840.10040.4.1</string>
+            <string>DSA</string>
+            <string>Alg.Alias.MessageDigest.2.16.840.1.101.3.4.2.8</string>
+            <string>SHA3-256</string>
+            <string>Alg.Alias.MessageDigest.2.16.840.1.101.3.4.2.9</string>
+            <string>SHA3-384</string>
+            <string>MessageDigest.SHA3-256 ImplementedIn</string>
+            <string>Software</string>
+            <string>Alg.Alias.MessageDigest.2.16.840.1.101.3.4.2.6</string>
+            <string>SHA-512/256</string>
+            <string>Alg.Alias.MessageDigest.2.16.840.1.101.3.4.2.7</string>
+            <string>SHA3-224</string>
+            <string>Alg.Alias.MessageDigest.2.16.840.1.101.3.4.2.4</string>
+            <string>SHA-224</string>
+            <string>Alg.Alias.MessageDigest.2.16.840.1.101.3.4.2.5</string>
+            <string>SHA-512/224</string>
+            <string>Alg.Alias.MessageDigest.2.16.840.1.101.3.4.2.2</string>
+            <string>SHA-384</string>
+            <string>SecureRandom.DRBG ThreadSafe</string>
+            <string>true</string>
+            <string>Alg.Alias.MessageDigest.2.16.840.1.101.3.4.2.3</string>
+            <string>SHA-512</string>
+            <string>AlgorithmParameterGenerator.DSA</string>
+            <string>sun.security.provider.DSAParameterGenerator</string>
+            <string>Alg.Alias.MessageDigest.2.16.840.1.101.3.4.2.1</string>
+            <string>SHA-256</string>
+            <string>Alg.Alias.KeyPairGenerator.1.3.14.3.2.12</string>
+            <string>DSA</string>
+            <string>Alg.Alias.Signature.1.3.14.3.2.27</string>
+            <string>SHA1withDSA</string>
+            <string>SecureRandom.NativePRNGBlocking ThreadSafe</string>
+            <string>true</string>
+            <string>MessageDigest.SHA3-384 ImplementedIn</string>
+            <string>Software</string>
+            <string>Alg.Alias.KeyFactory.1.2.840.10040.4.1</string>
+            <string>DSA</string>
+            <string>KeyPairGenerator.DSA ImplementedIn</string>
+            <string>Software</string>
+            <string>Configuration.JavaLoginConfig</string>
+            <string>sun.security.provider.ConfigFile$Spi</string>
+            <string>MessageDigest.MD5 ImplementedIn</string>
+            <string>Software</string>
+            <string>MessageDigest.SHA ImplementedIn</string>
+            <string>Software</string>
+            <string>Alg.Alias.Signature.1.2.840.10040.4.3</string>
+            <string>SHA1withDSA</string>
+            <string>CertPathValidator.PKIX ImplementedIn</string>
+            <string>Software</string>
+            <string>KeyStore.CaseExactJKS ImplementedIn</string>
+            <string>Software</string>
+            <string>MessageDigest.SHA-384</string>
+            <string>sun.security.provider.SHA5$SHA384</string>
+            <string>CertPathValidator.PKIX ValidationAlgorithm</string>
+            <string>RFC5280</string>
+            <string>Alg.Alias.Signature.SHA/DSA</string>
+            <string>SHA1withDSA</string>
+            <string>AlgorithmParameterGenerator.DSA KeySize</string>
+            <string>2048</string>
+            <string>Signature.SHA1withDSA ImplementedIn</string>
+            <string>Software</string>
+            <string>CertStore.Collection</string>
+            <string>sun.security.provider.certpath.CollectionCertStore</string>
+            <string>CertStore.com.sun.security.IndexedCollection</string>
+            <string>sun.security.provider.certpath.IndexedCollectionCertStore</string>
+            <string>MessageDigest.SHA3-224</string>
+            <string>sun.security.provider.SHA3$SHA224</string>
+            <string>SecureRandom.DRBG</string>
+            <string>sun.security.provider.DRBG</string>
+            <string>KeyFactory.DSA ImplementedIn</string>
+            <string>Software</string>
+            <string>Signature.SHA1withDSAinP1363Format</string>
+            <string>sun.security.provider.DSA$SHA1withDSAinP1363Format</string>
+            <string>MessageDigest.SHA-224 ImplementedIn</string>
+            <string>Software</string>
+            <string>Alg.Alias.MessageDigest.SHA1</string>
+            <string>SHA</string>
+            <string>Policy.JavaPolicy</string>
+            <string>sun.security.provider.PolicySpiFile</string>
+            <string>KeyStore.CaseExactJKS</string>
+            <string>sun.security.provider.JavaKeyStore$CaseExactJKS</string>
+            <string>MessageDigest.SHA-256</string>
+            <string>sun.security.provider.SHA2$SHA256</string>
+            <string>SecureRandom.SHA1PRNG ImplementedIn</string>
+            <string>Software</string>
+            <string>Alg.Alias.Signature.SHAwithDSA</string>
+            <string>SHA1withDSA</string>
+            <string>KeyStore.PKCS12</string>
+            <string>sun.security.pkcs12.PKCS12KeyStore$DualFormatPKCS12</string>
+            <string>Alg.Alias.AlgorithmParameters.OID.1.2.840.10040.4.1</string>
+            <string>DSA</string>
+            <string>Signature.SHA224withDSA KeySize</string>
+            <string>2048</string>
+            <string>Signature.NONEwithDSA SupportedKeyClasses</string>
+            <string>java.security.interfaces.DSAPublicKey|java.security.interfaces.DSAPrivateKey</string>
+            <string>Alg.Alias.Signature.DSA</string>
+            <string>SHA1withDSA</string>
+            <string>KeyStore.JKS ImplementedIn</string>
+            <string>Software</string>
+            <string>MessageDigest.SHA-384 ImplementedIn</string>
+            <string>Software</string>
+            <string>MessageDigest.SHA3-512 ImplementedIn</string>
+            <string>Software</string>
+            <string>Alg.Alias.MessageDigest.SHA-1</string>
+            <string>SHA</string>
+            <string>MessageDigest.SHA3-512</string>
+            <string>sun.security.provider.SHA3$SHA512</string>
+            <string>Signature.SHA256withDSAinP1363Format</string>
+            <string>sun.security.provider.DSA$SHA256withDSAinP1363Format</string>
+            <string>Alg.Alias.Signature.OID.1.2.840.10040.4.3</string>
+            <string>SHA1withDSA</string>
+            <string>KeyStore.DKS</string>
+            <string>sun.security.provider.DomainKeyStore$DKS</string>
+            <string>KeyStore.DKS ImplementedIn</string>
+            <string>Software</string>
+            <string>Signature.NONEwithDSA ImplementedIn</string>
+            <string>Software</string>
+            <string>CertificateFactory.X.509</string>
+            <string>sun.security.provider.X509Factory</string>
+            <string>Signature.SHA1withDSA</string>
+            <string>sun.security.provider.DSA$SHA1withDSA</string>
+            <string>Alg.Alias.Signature.1.3.14.3.2.13</string>
+            <string>SHA1withDSA</string>
+            <string>Alg.Alias.MessageDigest.2.16.840.1.101.3.4.2.10</string>
+            <string>SHA3-512</string>
+            <string>Alg.Alias.Signature.DSS</string>
+            <string>SHA1withDSA</string>
+            <string>Signature.SHA224withDSA ImplementedIn</string>
+            <string>Software</string>
+            <string>Signature.NONEwithDSA</string>
+            <string>sun.security.provider.DSA$RawDSA</string>
+            <string>MessageDigest.MD2 ImplementedIn</string>
+            <string>Software</string>
+            <string>Alg.Alias.AlgorithmParameterGenerator.1.3.14.3.2.12</string>
+            <string>DSA</string>
+            <string>Alg.Alias.AlgorithmParameterGenerator.OID.1.2.840.10040.4.1</string>
+            <string>DSA</string>
+            <string>SecureRandom.SHA1PRNG ThreadSafe</string>
+            <string>true</string>
+            <string>Signature.SHA1withDSA KeySize</string>
+            <string>1024</string>
+            <string>SecureRandom.DRBG ImplementedIn</string>
+            <string>Software</string>
+            <string>MessageDigest.SHA-512</string>
+            <string>sun.security.provider.SHA5$SHA512</string>
+            <string>SecureRandom.NativePRNGNonBlocking</string>
+            <string>sun.security.provider.NativePRNG$NonBlocking</string>
+            <string>SecureRandom.NativePRNG</string>
+            <string>sun.security.provider.NativePRNG</string>
+            <string>KeyPairGenerator.DSA KeySize</string>
+            <string>2048</string>
+            <string>KeyFactory.DSA</string>
+            <string>sun.security.provider.DSAKeyFactory</string>
+            <string>MessageDigest.MD5</string>
+            <string>sun.security.provider.MD5</string>
+            <string>MessageDigest.MD2</string>
+            <string>sun.security.provider.MD2</string>
+            <string>Provider.id name</string>
+            <string>SUN</string>
+            <string>MessageDigest.SHA3-224 ImplementedIn</string>
+            <string>Software</string>
+            <string>SecureRandom.SHA1PRNG</string>
+            <string>sun.security.provider.SecureRandom</string>
+            <string>AlgorithmParameters.DSA</string>
+            <string>sun.security.provider.DSAParameters</string>
+            <string>Alg.Alias.MessageDigest.1.3.14.3.2.26</string>
+            <string>SHA</string>
+            <string>AlgorithmParameterGenerator.DSA ImplementedIn</string>
+            <string>Software</string>
+            <string>MessageDigest.SHA3-256</string>
+            <string>sun.security.provider.SHA3$SHA256</string>
+            <string>SecureRandom.NativePRNGNonBlocking ThreadSafe</string>
+            <string>true</string>
+            <string>CertPathBuilder.PKIX ImplementedIn</string>
+            <string>Software</string>
+            <string>MessageDigest.SHA-224</string>
+            <string>sun.security.provider.SHA2$SHA224</string>
+            <string>MessageDigest.SHA-512 ImplementedIn</string>
+            <string>Software</string>
+            <string>Provider.id className</string>
+            <string>sun.security.provider.Sun</string>
+            <string>CertPathBuilder.PKIX ValidationAlgorithm</string>
+            <string>RFC5280</string>
+            <string>Provider.id info</string>
+            <string>SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; PKCS12, JKS &amp; DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)</string>
+            <string>Alg.Alias.AlgorithmParameters.1.3.14.3.2.12</string>
+            <string>DSA</string>
+            <string>CertificateFactory.X.509 ImplementedIn</string>
+            <string>Software</string>
+            <string>MessageDigest.SHA-512/256 ImplementedIn</string>
+            <string>Software</string>
+            <string>AlgorithmParameters.DSA ImplementedIn</string>
+            <string>Software</string>
+            <string>Provider.id version</string>
+            <string>11</string>
+            <string>Signature.NONEwithDSA KeySize</string>
+            <string>1024</string>
+            <string>CertPathBuilder.PKIX</string>
+            <string>sun.security.provider.certpath.SunCertPathBuilder</string>
+            <string>MessageDigest.SHA</string>
+            <string>sun.security.provider.SHA</string>
+            <string>Alg.Alias.Signature.RawDSA</string>
+            <string>NONEwithDSA</string>
+            <string>Alg.Alias.MessageDigest.OID.2.16.840.1.101.3.4.2.8</string>
+            <string>SHA3-256</string>
+            <string>Alg.Alias.KeyFactory.1.3.14.3.2.12</string>
+            <string>DSA</string>
+            <string>Alg.Alias.MessageDigest.OID.2.16.840.1.101.3.4.2.9</string>
+            <string>SHA3-384</string>
+            <string>Alg.Alias.MessageDigest.OID.2.16.840.1.101.3.4.2.6</string>
+            <string>SHA-512/256</string>
+            <string>Alg.Alias.MessageDigest.OID.2.16.840.1.101.3.4.2.7</string>
+            <string>SHA3-224</string>
+            <string>Alg.Alias.Signature.DSAWithSHA1</string>
+            <string>SHA1withDSA</string>
+            <string>Alg.Alias.MessageDigest.OID.2.16.840.1.101.3.4.2.4</string>
+            <string>SHA-224</string>
+            <string>Alg.Alias.MessageDigest.OID.2.16.840.1.101.3.4.2.5</string>
+            <string>SHA-512/224</string>
+            <string>Alg.Alias.MessageDigest.OID.2.16.840.1.101.3.4.2.2</string>
+            <string>SHA-384</string>
+            <string>Alg.Alias.MessageDigest.OID.2.16.840.1.101.3.4.2.3</string>
+            <string>SHA-512</string>
+            <string>Alg.Alias.MessageDigest.OID.2.16.840.1.101.3.4.2.1</string>
+            <string>SHA-256</string>
+            <string>Alg.Alias.Signature.OID.2.16.840.1.101.3.4.3.1</string>
+            <string>SHA224withDSA</string>
+            <string>Alg.Alias.Signature.OID.2.16.840.1.101.3.4.3.2</string>
+            <string>SHA256withDSA</string>
+            <string>Signature.SHA224withDSA SupportedKeyClasses</string>
+            <string>java.security.interfaces.DSAPublicKey|java.security.interfaces.DSAPrivateKey</string>
+            <string>Signature.SHA1withDSA SupportedKeyClasses</string>
+            <string>java.security.interfaces.DSAPublicKey|java.security.interfaces.DSAPrivateKey</string>
+            <string>Signature.SHA256withDSA ImplementedIn</string>
+            <string>Software</string>
+            <string>MessageDigest.SHA3-384</string>
+            <string>sun.security.provider.SHA3$SHA384</string>
+            <string>Signature.SHA224withDSA</string>
+            <string>sun.security.provider.DSA$SHA224withDSA</string>
+            <string>Alg.Alias.Signature.SHA-1/DSA</string>
+            <string>SHA1withDSA</string>
+            <string>Alg.Alias.CertificateFactory.X509</string>
+            <string>X.509</string>
+            <string>CertStore.com.sun.security.IndexedCollection ImplementedIn</string>
+            <string>Software</string>
+            <string>Alg.Alias.Signature.SHA1/DSA</string>
+            <string>SHA1withDSA</string>
+            <string>MessageDigest.SHA-512/224 ImplementedIn</string>
+            <string>Software</string>
+            <string>MessageDigest.SHA-512/224</string>
+            <string>sun.security.provider.SHA5$SHA512_224</string>
+            <string>MessageDigest.SHA-256 ImplementedIn</string>
+            <string>Software</string>
+            <string>SecureRandom.NativePRNG ThreadSafe</string>
+            <string>true</string>
+            <string>KeyStore.JKS</string>
+            <string>sun.security.provider.JavaKeyStore$DualFormatJKS</string>
+            <string>Alg.Alias.KeyPairGenerator.OID.1.2.840.10040.4.1</string>
+            <string>DSA</string>
+            <string>CertPathValidator.PKIX</string>
+            <string>sun.security.provider.certpath.PKIXCertPathValidator</string>
+            <string>Alg.Alias.AlgorithmParameterGenerator.1.2.840.10040.4.1</string>
+            <string>DSA</string>
+            <string>Alg.Alias.KeyPairGenerator.1.2.840.10040.4.1</string>
+            <string>DSA</string>
+            <string>Alg.Alias.Signature.2.16.840.1.101.3.4.3.2</string>
+            <string>SHA256withDSA</string>
+            <string>Alg.Alias.Signature.2.16.840.1.101.3.4.3.1</string>
+            <string>SHA224withDSA</string>
+            <string>Signature.SHA256withDSA KeySize</string>
+            <string>2048</string>
+          </hashtable>
+          <java.security.Provider>
+            <default>
+              <version>11.0</version>
+              <info>SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; PKCS12, JKS &amp; DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)</info>
+              <name>SUN</name>
+              <versionStr>11</versionStr>
+            </default>
+          </java.security.Provider>
+        </provider>
+        <digestSpi class="sun.security.provider.MD5">
+          <algorithm>MD5</algorithm>
+          <digestLength>16</digestLength>
+          <blockSize>64</blockSize>
+          <buffer>SGVsbG8xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</buffer>
+          <bufOfs>6</bufOfs>
+          <bytesProcessed>6</bytesProcessed>
+          <state>
+            <int>1732584193</int>
+            <int>-271733879</int>
+            <int>-1732584194</int>
+            <int>271733878</int>
+          </state>
+          <x>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+          </x>
+        </digestSpi>
+      </java.security.MessageDigest_-Delegate>
+    </entry>
+    <entry>
+      <string>SHA-1</string>
+      <java.security.MessageDigest_-Delegate>
+        <algorithm>SHA-1</algorithm>
+        <state>1</state>
+        <provider class="sun.security.provider.Sun" reference="../../../entry/java.security.MessageDigest_-Delegate/provider"/>
+        <digestSpi class="sun.security.provider.SHA">
+          <algorithm>SHA-1</algorithm>
+          <digestLength>20</digestLength>
+          <blockSize>64</blockSize>
+          <buffer>SGVsbG8xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</buffer>
+          <bufOfs>6</bufOfs>
+          <bytesProcessed>6</bytesProcessed>
+          <W>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+          </W>
+          <state>
+            <int>1732584193</int>
+            <int>-271733879</int>
+            <int>-1732584194</int>
+            <int>271733878</int>
+            <int>-1009589776</int>
+          </state>
+        </digestSpi>
+      </java.security.MessageDigest_-Delegate>
+    </entry>
+    <entry>
+      <string>SHA-256</string>
+      <java.security.MessageDigest_-Delegate>
+        <algorithm>SHA-256</algorithm>
+        <state>1</state>
+        <provider class="sun.security.provider.Sun" reference="../../../entry/java.security.MessageDigest_-Delegate/provider"/>
+        <digestSpi class="sun.security.provider.SHA2$SHA256">
+          <algorithm>SHA-256</algorithm>
+          <digestLength>32</digestLength>
+          <blockSize>64</blockSize>
+          <buffer>SGVsbG8xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</buffer>
+          <bufOfs>6</bufOfs>
+          <bytesProcessed>6</bytesProcessed>
+          <W>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+            <int>0</int>
+          </W>
+          <state>
+            <int>1779033703</int>
+            <int>-1150833019</int>
+            <int>1013904242</int>
+            <int>-1521486534</int>
+            <int>1359893119</int>
+            <int>-1694144372</int>
+            <int>528734635</int>
+            <int>1541459225</int>
+          </state>
+          <initialHashes>
+            <int>1779033703</int>
+            <int>-1150833019</int>
+            <int>1013904242</int>
+            <int>-1521486534</int>
+            <int>1359893119</int>
+            <int>-1694144372</int>
+            <int>528734635</int>
+            <int>1541459225</int>
+          </initialHashes>
+        </digestSpi>
+      </java.security.MessageDigest_-Delegate>
+    </entry>
+    <entry>
+      <string>SHA-512</string>
+      <java.security.MessageDigest_-Delegate>
+        <algorithm>SHA-512</algorithm>
+        <state>1</state>
+        <provider class="sun.security.provider.Sun" reference="../../../entry/java.security.MessageDigest_-Delegate/provider"/>
+        <digestSpi class="sun.security.provider.SHA5$SHA512">
+          <algorithm>SHA-512</algorithm>
+          <digestLength>64</digestLength>
+          <blockSize>128</blockSize>
+          <buffer>SGVsbG8xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</buffer>
+          <bufOfs>6</bufOfs>
+          <bytesProcessed>6</bytesProcessed>
+          <W>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+            <long>0</long>
+          </W>
+          <state>
+            <long>7640891576956012808</long>
+            <long>-4942790177534073029</long>
+            <long>4354685564936845355</long>
+            <long>-6534734903238641935</long>
+            <long>5840696475078001361</long>
+            <long>-7276294671716946913</long>
+            <long>2270897969802886507</long>
+            <long>6620516959819538809</long>
+          </state>
+          <initialHashes>
+            <long>7640891576956012808</long>
+            <long>-4942790177534073029</long>
+            <long>4354685564936845355</long>
+            <long>-6534734903238641935</long>
+            <long>5840696475078001361</long>
+            <long>-7276294671716946913</long>
+            <long>2270897969802886507</long>
+            <long>6620516959819538809</long>
+          </initialHashes>
+        </digestSpi>
+      </java.security.MessageDigest_-Delegate>
+    </entry>
+  </digests>
+  <hexDigests class="linked-hash-map"/>
+  <generateChecksumFiles>false</generateChecksumFiles>
+</org.carlspring.commons.io.MultipleDigestOutputStream>
