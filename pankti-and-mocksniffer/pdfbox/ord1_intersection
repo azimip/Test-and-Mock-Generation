@@ -1,0 +1,3 @@
+org.apache.pdfbox.pdmodel.font.PDCIDFontType2 --> ['codeToGID', 'getPath'] , [('org.apache.pdfbox.pdmodel.font.PDType0Font', '1')] 
+org.apache.pdfbox.pdfparser.COSParser --> ['getEncryption'] , [('org.apache.pdfbox.cos.COSStream', '1')] 
+org.apache.pdfbox.pdmodel.graphics.color.PDICCBased --> ['getDefaultDecode'] , [('org.apache.pdfbox.cos.COSStream', '1')] 
