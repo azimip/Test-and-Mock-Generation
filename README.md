@@ -3,7 +3,7 @@
 - [pankti experiments](pankti-experiments/README.md), including a few runs on some parts of [commons-io](https://github.com/carlspring/commons-io) project
 - [pankti and mocksniffer](pankti-and-mocksniffer), which is an experiment to get the intersection of pankti output on _pdfbox_ project as compared to MockSniffer outputs on it
 
-##Timeline
+## Timeline
 **I have started the project on July 2021 and gone this way so far:**
 ### July 21st
 - I've read these papers partly:
